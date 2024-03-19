@@ -6,15 +6,13 @@
     <title>Form</title>
 </head>
 <body>
-    <header>
-        <h1>Регистрация</h1>
-        <div>
-            <label for="entry">Уже есть аккаунт?</label>
-            <button id="entry">Вход</button>
-        </div>
-    </header>
     <main>
         <form action="#">
+            <h1>Регистрация</h1>
+            <div>
+                <p>Уже есть аккаунт?</p>
+                <a href="#" id="entry">Вход</a>
+            </div>
             <input type="text" placeholder="Название" required>
             <div>
                 <input type="text" name="name" id="name" placeholder="Имя" required>
@@ -22,16 +20,12 @@
             </div>
             <input type="email" placeholder="email" required>
             <button type="submit">Зарегистрироваться</button>
-        </form>
-    </main>
-    <footer>
-        <form action="#">
             <div>
                 <input id="conditions" type="checkbox" required>
                 <label for="conditions">Я прочитал и принимаю</label>
                 <a href="#">Условия использования</a>
             </div>
         </form>
-    </footer>
+    </main>
 </body>
 </html>
