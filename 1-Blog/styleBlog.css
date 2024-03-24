@@ -10,6 +10,7 @@ body {
     text-decoration: none;
     line-height: 21px;
     margin-top: 80px;
+    padding: 2px 0px;
 }
 
 #signB {
@@ -91,7 +92,7 @@ div[class="dateAndProf"] p {
     line-height: 28px;
     padding: 5px 0px;
     width: 150px;
-    height: 28px;
+    line-height: 28px;
 }
 
 #prof {
@@ -150,6 +151,7 @@ footer {
     line-height: 28px;
     width: 226px;
     height: 28px;
+    margin-bottom: 75px;
 }
 
 .headerMenu {
