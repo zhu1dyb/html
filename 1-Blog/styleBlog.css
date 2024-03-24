@@ -1,0 +1,157 @@
+body {
+    background:linear-gradient(180deg, #374151 0%, #111827 100%);
+}
+
+#myBlog {
+    font-family: "Roboto";
+    font-weight: 400;
+    font-size: 18px;
+    color: #FFFFFF;
+    text-decoration: none;
+    line-height: 21px;
+    margin-top: 80px;
+}
+
+#signB {
+    font-weight: 600;
+    font-size: 18px;
+    color: #FFFFFF;
+    text-decoration: none;
+    line-height: 23px;
+    padding: 6px 12px;
+    background-color: #4B5563;;
+}
+
+.navSign, .headerMenu {
+    margin-top: 80px;
+}
+
+.headerMenu a {
+    font-family: "Roboto";
+    font-weight: 400;
+    font-size: 16px;
+    color: #FFFFFF;
+    text-decoration: none;
+    line-height: 19px;
+}
+
+input[placeholder="Поиск"] {
+    font-family: "Roboto";
+    background-color: #1F293799;
+    font-weight: 400;
+    font-size: 16px;
+    color: #FFFFFF;
+    text-decoration: none;
+    line-height: 19px;
+    width: 225px;
+    padding: 10px 120px 10px 50px;
+    box-sizing: border-box;
+    border-radius: 100px;
+    border-style: none;
+    margin: 70px 180px 70px 70px;
+}
+
+form p {
+    margin: 13px 190px 13px 18px;
+}
+
+div[class="dateAndProf"] p {
+    font-family: "Roboto";
+    font-weight: 400;
+    font-size: 14px;
+    color: #FFFFFF;
+    text-decoration: none;
+    line-height: 17px;
+    margin-bottom: 14px;
+}
+
+#commentByNV {
+    font-weight: 400;
+    font-size: 24px;
+    color: #FFFFFF;
+    text-decoration: none;
+    font-family: "Roboto";
+    line-height: 38px;
+    padding: 5px;
+    width: 525px;
+    margin-bottom: 30px;
+    margin-top: 0px;
+}
+
+.NameSurname {
+    margin-bottom: 28px;
+}
+
+#NSN {
+    font-weight: 400;
+    font-size: 16px;
+    color: #FFFFFF;
+    text-decoration: none;
+    font-family: "Roboto";
+    line-height: 28px;
+    padding: 5px 0px;
+    width: 150px;
+    height: 28px;
+}
+
+#prof {
+    font-weight: 400;
+    font-size: 14px;
+    color: #FFFFFF;
+    text-decoration: none;
+    font-family: "Roboto";
+    line-height: 28px;
+    width: 85px;
+    height: 28px;
+    padding: 5px 0px;
+}
+
+.photoComp {
+    margin-bottom: 60px;
+}
+
+#firstP {
+    font-weight: 400;
+    font-size: 20px;
+    color: #FFFFFF;
+    text-decoration: none;
+    font-family: "Roboto";
+    line-height: 32px;
+    margin-top: 0px;
+}
+
+.secTh {
+    font-weight: 400;
+    font-size: 16px;
+    color: #FFFFFF;
+    text-decoration: none;
+    font-family: "Roboto";
+    line-height: 30px;
+}
+
+.secTh a {
+    font-weight: 400;
+    font-size: 16px;
+    color: #FFFFFF;
+    font-family: "Roboto";
+    line-height: 30px;;
+}
+
+.ps {
+    margin-bottom: 103px;
+}
+
+footer {
+    font-weight: 400;
+    font-size: 16px;
+    color: #FFFFFF;
+    text-decoration: none;
+    font-family: "Roboto";
+    line-height: 28px;
+    width: 226px;
+    height: 28px;
+}
+
+.headerMenu {
+    list-style: none;
+}
