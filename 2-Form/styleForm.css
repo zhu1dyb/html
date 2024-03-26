@@ -1,0 +1,164 @@
+body {
+    background-color: #F39494;
+}
+
+h1 {
+    color: #333333;
+    font-size: 36px;
+    font-weight: 700;
+    font-family: "Open Sans";
+    margin-left: auto;
+    margin-right: auto;
+    width: 383px;
+    padding: 10px 20px;
+    height: 54px;
+    text-align: center;
+}
+
+p {
+    color: #666666;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: "Open Sans";
+}
+
+#entry {
+    color: #089FE0;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: "Open Sans";
+
+}
+
+#nazvanie {
+        color: #333333;
+        font-size: 16px;
+        font-weight: 600;
+        font-family: "Open Sans";
+        width: 394px;
+        height: 45px;
+        border-radius: 5px;
+        border: 1px solid #F5F5F5;
+        margin-bottom: 21px;
+        box-sizing: border-box;
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: 10px;
+
+}
+
+#name, #lastname, #email {
+    background-color: #F5F5F5;
+    font-size: 16px;
+    font-weight: 400;
+    font-style: italic;
+    font-family: "Open Sans";
+    border-radius: 5px;
+    border: 1px solid #FFFFFF;
+    padding-left: 10px;
+}
+
+#name, #lastname {
+    width: 192px;
+    height: 45px;
+}
+
+#name {
+    margin-right: 2px;
+}
+
+#reg {
+    background-color: #089FE0;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: "Open Sans";
+    color: #FFFFFF;
+    width: 394px;
+    height: 44px;
+    border-radius: 5px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: 3px solid #FFFFFF;
+    margin-bottom: 22px;
+
+}
+
+label {
+    color: #666666;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: "Open Sans";
+    margin-right: 8px;
+}
+
+span {
+    font-size: 40px;
+    font-weight: 400;
+    font-family: "Open Sans";
+    color: #ffffff;
+    margin-left: -60px;
+    position: absolute;
+    top: 670px;
+
+}
+
+#conds {
+    color: #089FE0;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: "Open Sans";
+}
+
+form {
+     background: #FFFEFE;
+     width: 582px;
+     height: 573px;
+     border-radius: 10px;
+     margin: 225px auto;
+     text-align: center;
+}
+
+.GlobEnt {
+    width: 237px;
+    height: 26px;
+    padding: 3px 5px;
+    margin-bottom: 47px;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+}
+
+.OwnInf {
+    width: 394px;
+    height: 45px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    margin-bottom: 22px;
+}
+
+#email {
+    width: 394px;
+    height: 45px;
+    border-radius: 5px;
+    border: 1px solid #FFFFFF;
+    box-sizing: border-box;
+    margin-bottom: 22px;
+}
+
+#conditions {
+    width: 15px;
+    height: 16px;
+    border-radius: 5px;
+    border: 1px solid #EEEEEE;
+    margin-right: 4px;
+}
+
+.as {
+    display: flex;
+    width: 371px;
+    height: 19px;
+    margin: 0px auto;
+}
+
+

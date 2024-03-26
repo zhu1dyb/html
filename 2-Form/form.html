@@ -3,27 +3,34 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/2-Form/styleForm.css">
     <title>Form</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Ubuntu:wght@300;400&display=swap"
+        rel="stylesheet">
 </head>
 <body>
     <main>
         <form action="#">
             <h1>Регистрация</h1>
-            <div>
+            <div class="GlobEnt">
                 <p>Уже есть аккаунт?</p>
-                <a href="#" id="entry">Вход</a>
+                <a href="#" id="entry">Войти</a>
             </div>
-            <input type="text" placeholder="Название" required>
-            <div>
+            <input id="nazvanie" type="text" placeholder="Название" required>
+            <div class="OwnInf">
                 <input type="text" name="name" id="name" placeholder="Имя" required>
                 <input type="text" name="lastname" id="lastname" placeholder="Фамилия" required>
             </div>
-            <input type="email" placeholder="email" required>
-            <button type="submit">Зарегистрироваться</button>
-            <div>
+            <input type="email" placeholder="E-mail" id="email" required>
+            <button type="submit" id="reg"> Зарегистрироваться</button>
+            <span> &rarr; </span>
+            <div class="as">
                 <input id="conditions" type="checkbox" required>
                 <label for="conditions">Я прочитал и принимаю</label>
-                <a href="#">Условия использования</a>
+                <a id="conds" href="#">Условия использования</a>
             </div>
         </form>
     </main>
