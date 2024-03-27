@@ -10,9 +10,10 @@ h1 {
     margin-left: auto;
     margin-right: auto;
     width: 383px;
-    padding: 10px 20px;
+    padding-top: 53px;
     height: 54px;
     text-align: center;
+    margin-top: 0px;
 }
 
 p {
@@ -98,7 +99,7 @@ span {
     color: #ffffff;
     margin-left: -60px;
     position: absolute;
-    top: 670px;
+    top: 653px;
 
 }
 
