@@ -99,7 +99,7 @@ span {
     color: #ffffff;
     margin-left: -60px;
     position: absolute;
-    top: 653px;
+    top: 629px;
 
 }
 
@@ -120,13 +120,15 @@ form {
 }
 
 .GlobEnt {
-    width: 237px;
+    width: 225px;
     height: 26px;
     padding: 3px 5px;
     margin-bottom: 47px;
     margin-right: auto;
     margin-left: auto;
     display: flex;
+    justify-content: space-between;
+    align-items: baseline;
 }
 
 .OwnInf {

@@ -21,7 +21,6 @@ body {
     line-height: 23px;
     padding: 6px 12px;
     background-color: #4B5563;
-    ;
 }
 
 
@@ -53,6 +52,9 @@ input[placeholder="Поиск"] {
     box-sizing: border-box;
     border-radius: 100px;
     border-style: none;
+    position: absolute;
+    left: 1300px;
+    top: 70px;
 }
 
 
@@ -74,6 +76,8 @@ div[class="dateAndProf"] p {
         margin-left: auto;
         margin-right: auto;
         width: 180px;
+        display: flex;
+        justify-content: space-between;
 }
 
 #commentByNV {
@@ -89,13 +93,16 @@ div[class="dateAndProf"] p {
     margin-top: 0px;
     margin-left: auto;
     margin-right: auto;
+    text-align: center;
 }
 
 .portfl {
     margin-bottom: 28px;
-    width: 215px;
     margin-left: auto;
-    margin-right: auto;;
+    margin-right: auto;
+    display:flex;
+    justify-content: center;
+    text-align: center;
 }
 
 #NSN {
@@ -105,9 +112,10 @@ div[class="dateAndProf"] p {
     text-decoration: none;
     font-family: "Roboto";
     line-height: 28px;
-    padding: 5px 0px;
     width: 150px;
     line-height: 28px;
+    margin: 0px;
+    text-align: center;
 }
 
 #prof {
@@ -119,7 +127,12 @@ div[class="dateAndProf"] p {
     line-height: 28px;
     width: 85px;
     height: 28px;
-    padding: 5px 0px;
+    margin: 0px;
+    filter: contrast(30%);
+}
+
+.womanPh {
+    padding-right: 10px;
 }
 
 .photoCompDiv {
@@ -182,10 +195,22 @@ footer {
 
 .headerMenu {
     list-style: none;
-    width: 250px;
+    width: 330px;
     display: flex;
+    justify-content: space-between;
+    margin-left: 77px;
+    padding: 0px;
 }
+
  
 .ee {
     display: flex;
+    margin-left: 180px;
+    align-items: baseline;
+}
+
+img[alt="search"] {
+    position: absolute;
+    left: 1318px;
+    top: 82px;
 }
