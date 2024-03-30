@@ -4,56 +4,69 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Blog</title>
+    <link rel="stylesheet" href="./styleBlog.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Ubuntu:wght@300;400&display=swap"
+        rel="stylesheet">
 </head>
 <body>
-    <header>
-        <div>
-            <a href="#">&#66</a>
-            <a href="#">Мой блог</a>
+    <header class="head">
+        <div class="ee">
+            <div class="navSign">
+                <a id="signB" href="#">&#66</a>
+                <a id="myBlog" href="#">Мой блог</a>
+            </div>
+            <nav>
+                <ul class="headerMenu">
+                    <li><a class="htmlCSS" href="#">HTML и CSS</a></li>
+                    <li><a href="#">Frontend</a></li>
+                    <li><a href="#">Backend</a></li>
+                </ul>
+            </nav>
+            <form action="#" class="search">
+                <img src="./img/search.png" alt="search">
+                <input type="text" placeholder="Поиск">
+            </form>
         </div>
-        <nav>
-            <ul>
-                <li><a href="#">HTML и CSS</a></li>
-                <li><a href="#">Frontend</a></li>
-                <li><a href="#">Backend</a></li>
-            </ul>
-        </nav>
-        <form action="#">
-            <p>&#128270;</p>
-            <input type="text" placeholder="Поиск">
-        </form>
     </header>
     <main>
         <section>
-<div>
-    <p>FRONTEND</p>
-    <p>&bull;</p>
-    <p>12 мая 2024</p>
-<h1>Теория цвета - Как цвет влияет на поведение потребителей</h1>
-<div>
-    <img src="/1-Blog/img/Ellipse 1.png"
-    alt="photo woman">
+<div class="dateAndProf">
+    <div class="psa">
+        <p>FRONTEND</p>
+        <p>&bull;</p>
+        <p>12 мая 2024</p>
+    </div>
+<h1 id="commentByNV">Теория цвета - Как цвет влияет на поведение потребителей</h1>
+<div class="portfl">
     <div>
-    <p>Наталья Васильева</p>
-    <p>Разработчик</p>
+        <img class="womanPh" src="./img/Ellipse 1.png" alt="photo woman">
+    </div>
+    <div class="NameSurname">
+    <p id="NSN">Наталья Васильева</p>
+    <p id="prof">Разработчик</p>
     </div>
 </div>
 </section>
-<img src="/1-Blog/img/Rectangle 181.png"
+<div class="photoCompDiv">
+    <img src="./img/Rectangle 181.png"
     alt="photo of computer">
-<section>
-    <p>
+</div>
+<section class="ps">
+    <p id="firstP">
         Теория цвета — это особенности эмоционального восприятия человеком <br/> тех или иных цветовых решений. Цвета и
         различные их <br/> комбинации влияют на психику человека, а значит, во многом определяют его <br/> поведение. Маркетологи и веб-дизайнеры
         хорошо знают, что правильно <br/> подобранная цветовая гамма сайта помогает привлечь и удержать <br/> внимание пользователей,
         сформировать положительное отношение к <br/> продукту, подтолкнуть посетителей к совершению целевых действий, <br/> повысить конверсию.
     </p>
-    <p>
+    <p class="secTh">
         Универсального ответа на вопрос, как тот или иной цвет влияет на разных людей, нет. <br /> Эмоциональная и
         поведенческая реакция каждого человека зависит от личного опыта. <br /> Вместе с тем можно выделить определенные
         закономерности влияния цветов на поведение пользователей
     </p>
-    <p>
+    <p class="secTh" >
         В исследовании «Влияние цвета на маркетинг» ( <a href="#">Impact of color on marketing</a> ) говорится, что <br/> использование разных
         цветов может существенно влиять на настроение и поведение <br/> потребителей. Утверждается, что от 60 до 90% покупателей (в
         зависимости от категории <br/> продукта) дают положительную или отрицательную оценку товару, основываясь только на <br/> его
