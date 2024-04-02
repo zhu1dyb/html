@@ -1,42 +1,27 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
     background: linear-gradient(180deg, #374151 0%, #111827 100%);
 }
 
-#myBlog {
-    font-family: "Roboto";
-    font-weight: 400;
-    font-size: 18px;
-    color: #FFFFFF;
-    text-decoration: none;
-    line-height: 21px;
-    margin-top: 80px;
-    padding: 2px 0px;
-}
-
-#signB {
-    font-weight: 600;
-    font-size: 18px;
-    color: #FFFFFF;
-    text-decoration: none;
-    line-height: 23px;
-    padding: 6px 12px;
-    background-color: #4B5563;
-}
-
-
-
-.navSign,
-.headerMenu {
-    margin-top: 80px;
-}
-
-.headerMenu a {
-    font-family: "Roboto";
+footer {
     font-weight: 400;
     font-size: 16px;
     color: #FFFFFF;
     text-decoration: none;
-    line-height: 19px;
+    font-family: "Roboto";
+    line-height: 28px;
+    width: 226px;
+    height: 28px;
+    margin-bottom: 75px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+form p {
+    margin: 13px 190px 13px 18px;
 }
 
 input[placeholder="Поиск"] {
@@ -49,17 +34,11 @@ input[placeholder="Поиск"] {
     line-height: 19px;
     width: 225px;
     padding: 10px 120px 10px 50px;
-    box-sizing: border-box;
     border-radius: 100px;
     border-style: none;
     position: absolute;
     left: 1300px;
-    top: 70px;
-}
-
-
-form p {
-    margin: 13px 190px 13px 18px;
+    top: 94px;
 }
 
 div[class="dateAndProf"] p {
@@ -71,13 +50,11 @@ div[class="dateAndProf"] p {
     line-height: 17px;
     margin-bottom: 14px;
 }
- 
-.psa {
-        margin-left: auto;
-        margin-right: auto;
-        width: 180px;
-        display: flex;
-        justify-content: space-between;
+
+img[alt="search"] {
+    position: absolute;
+    left: 1318px;
+    top: 106px;
 }
 
 #commentByNV {
@@ -96,14 +73,37 @@ div[class="dateAndProf"] p {
     text-align: center;
 }
 
-.portfl {
-    margin-bottom: 28px;
-    margin-left: auto;
-    margin-right: auto;
-    display:flex;
-    justify-content: center;
-    text-align: center;
+#firstP {
+    font-weight: 400;
+    font-size: 20px;
+    color: #FFFFFF;
+    text-decoration: none;
+    font-family: "Roboto";
+    line-height: 32px;
+    margin-top: 0px;
 }
+
+#myBlog {
+    font-family: "Roboto";
+    font-weight: 400;
+    font-size: 18px;
+    color: #FFFFFF;
+    text-decoration: none;
+    line-height: 21px;
+    padding: 2px 0px;
+}
+
+#signB {
+    font-weight: 600;
+    font-size: 18px;
+    color: #FFFFFF;
+    text-decoration: none;
+    line-height: 23px;
+    padding: 6px 12px;
+    background-color: #4B5563;
+}
+
+
 
 #NSN {
     font-weight: 400;
@@ -131,8 +131,30 @@ div[class="dateAndProf"] p {
     filter: contrast(30%);
 }
 
-.womanPh {
-    padding-right: 10px;
+.psa {
+    margin-left: auto;
+    margin-right: auto;
+    width: 180px;
+    display: flex;
+    justify-content: space-between
+}
+
+.portfl {
+    margin-bottom: 28px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.headerMenu a {
+    font-family: "Roboto";
+    font-weight: 400;
+    font-size: 16px;
+    color: #FFFFFF;
+    text-decoration: none;
+    line-height: 19px;
 }
 
 .photoCompDiv {
@@ -142,16 +164,6 @@ div[class="dateAndProf"] p {
     border-radius: 5px;
     margin-left: auto;
     margin-right: auto;
-}
-
-#firstP {
-    font-weight: 400;
-    font-size: 20px;
-    color: #FFFFFF;
-    text-decoration: none;
-    font-family: "Roboto";
-    line-height: 32px;
-    margin-top: 0px;
 }
 
 .secTh {
@@ -179,20 +191,6 @@ div[class="dateAndProf"] p {
     width: 710px;
 }
 
-footer {
-    font-weight: 400;
-    font-size: 16px;
-    color: #FFFFFF;
-    text-decoration: none;
-    font-family: "Roboto";
-    line-height: 28px;
-    width: 226px;
-    height: 28px;
-    margin-bottom: 75px;
-    margin-left: auto;
-    margin-right: auto;
-}
-
 .headerMenu {
     list-style: none;
     width: 330px;
@@ -204,13 +202,8 @@ footer {
 
  
 .ee {
+    padding-top: 80px;
     display: flex;
-    margin-left: 180px;
+    padding-left: 180px;
     align-items: baseline;
-}
-
-img[alt="search"] {
-    position: absolute;
-    left: 1318px;
-    top: 82px;
 }
