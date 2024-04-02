@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
     background-color: #F39494;
 }
@@ -81,6 +85,7 @@ p {
     border-radius: 5px;
     border: 3px solid #FFFFFF;
     margin-bottom: 22px;
+    position: relative;
 
 }
 
@@ -92,15 +97,15 @@ label {
     margin-right: 8px;
 }
 
+
 span {
     font-size: 40px;
     font-weight: 400;
     font-family: "Open Sans";
     color: #ffffff;
-    margin-left: -60px;
+    padding-left: 40px;
     position: absolute;
-    top: 629px;
-
+    top: -9px;
 }
 
 #conds {
@@ -108,15 +113,16 @@ span {
     font-size: 14px;
     font-weight: 400;
     font-family: "Open Sans";
+    padding-left: 8px;
 }
 
 form {
      background: #FFFEFE;
      width: 582px;
-     height: 573px;
      border-radius: 10px;
      margin: 225px auto;
      text-align: center;
+    padding: 72px 91px 95px 93px;
 }
 
 .GlobEnt {
@@ -126,6 +132,9 @@ form {
     margin-bottom: 47px;
     margin-right: auto;
     margin-left: auto;
+}
+
+.GlobEnt p {
     display: flex;
     justify-content: space-between;
     align-items: baseline;
@@ -164,4 +173,9 @@ form {
     margin: 0px auto;
 }
 
+
+input {
+    width: 100%;
+    padding: 9px 11px;
+}
 
