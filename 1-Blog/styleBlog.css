@@ -1,31 +1,16 @@
-* {
-    box-sizing: border-box;
-}
 
 body {
     background: linear-gradient(180deg, #374151 0%, #111827 100%);
-}
-
-footer {
-    font-weight: 400;
-    font-size: 16px;
-    color: #FFFFFF;
-    text-decoration: none;
+    box-sizing: border-box;
     font-family: "Roboto";
-    line-height: 28px;
-    width: 226px;
-    height: 28px;
-    margin-bottom: 75px;
-    margin-left: auto;
-    margin-right: auto;
+    width: 100vw;
 }
 
-form p {
-    margin: 13px 190px 13px 18px;
+header {
+    padding: 72px 180px;
 }
 
 input[placeholder="Поиск"] {
-    font-family: "Roboto";
     background-color: #1F293799;
     font-weight: 400;
     font-size: 16px;
@@ -33,16 +18,16 @@ input[placeholder="Поиск"] {
     text-decoration: none;
     line-height: 19px;
     width: 225px;
-    padding: 10px 120px 10px 50px;
+    padding: 9px 12px 12px 49px;
     border-radius: 100px;
     border-style: none;
-    position: absolute;
-    left: 1300px;
-    top: 94px;
+    box-sizing: border-box;
+    background-image: url(./img/search.png);
+    background-repeat: no-repeat;
+    background-position: top 13px left 12px;
 }
 
 div[class="dateAndProf"] p {
-    font-family: "Roboto";
     font-weight: 400;
     font-size: 14px;
     color: #FFFFFF;
@@ -51,10 +36,19 @@ div[class="dateAndProf"] p {
     margin-bottom: 14px;
 }
 
-img[alt="search"] {
-    position: absolute;
-    left: 1318px;
-    top: 106px;
+nav {
+    flex: 1;
+}
+
+footer {
+    font-weight: 400;
+    font-size: 16px;
+    color: #FFFFFF;
+    text-decoration: none;
+    line-height: 28px;
+    width: 226px;
+    height: 28px;
+    margin: 0px auto 75px;
 }
 
 #commentByNV {
@@ -62,15 +56,12 @@ img[alt="search"] {
     font-size: 24px;
     color: #FFFFFF;
     text-decoration: none;
-    font-family: "Roboto";
     line-height: 38px;
     padding: 5px;
-    width: 525px;
+    max-width: 525px;
     margin-bottom: 30px;
-    margin-top: 0px;
-    margin-left: auto;
-    margin-right: auto;
     text-align: center;
+    margin: 0px auto 30px;
 }
 
 #firstP {
@@ -78,13 +69,11 @@ img[alt="search"] {
     font-size: 20px;
     color: #FFFFFF;
     text-decoration: none;
-    font-family: "Roboto";
     line-height: 32px;
     margin-top: 0px;
 }
 
 #myBlog {
-    font-family: "Roboto";
     font-weight: 400;
     font-size: 18px;
     color: #FFFFFF;
@@ -110,7 +99,6 @@ img[alt="search"] {
     font-size: 16px;
     color: #FFFFFF;
     text-decoration: none;
-    font-family: "Roboto";
     line-height: 28px;
     width: 150px;
     line-height: 28px;
@@ -123,7 +111,6 @@ img[alt="search"] {
     font-size: 14px;
     color: #FFFFFF;
     text-decoration: none;
-    font-family: "Roboto";
     line-height: 28px;
     width: 85px;
     height: 28px;
@@ -131,16 +118,44 @@ img[alt="search"] {
     filter: contrast(30%);
 }
 
-.psa {
-    margin-left: auto;
-    margin-right: auto;
-    width: 180px;
+.headerNav {
     display: flex;
-    justify-content: space-between
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.navSign {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+}
+
+.headerMenu {
+    list-style: none;
+    width: 330px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.headerContainer {
+    display: flex;
+    align-items: center;
+    gap: 77px;
+}
+
+.date {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 6px;;
+}
+
+.dateAndProf {
+    margin-bottom: 28px;
 }
 
 .portfl {
-    margin-bottom: 28px;
     margin-left: auto;
     margin-right: auto;
     display: flex;
@@ -149,7 +164,6 @@ img[alt="search"] {
 }
 
 .headerMenu a {
-    font-family: "Roboto";
     font-weight: 400;
     font-size: 16px;
     color: #FFFFFF;
@@ -158,52 +172,21 @@ img[alt="search"] {
 }
 
 .photoCompDiv {
-    margin-bottom: 60px;
-    width: 900px;
-    height: 600px;
+    max-width: 900px;
+    max-height: 600px;
     border-radius: 5px;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0px auto 60px;
 }
 
-.secTh {
+.secTh, .secTh a {
     font-weight: 400;
     font-size: 16px;
     color: #FFFFFF;
     text-decoration: none;
-    font-family: "Roboto";
     line-height: 30px;
-}
-
-.secTh a {
-    font-weight: 400;
-    font-size: 16px;
-    color: #FFFFFF;
-    font-family: "Roboto";
-    line-height: 30px;
-    ;
 }
 
 .ps {
-    margin-bottom: 103px;
-    margin-left: auto;
-    margin-right: auto;
     width: 710px;
-}
-
-.headerMenu {
-    list-style: none;
-    width: 330px;
-    display: flex;
-    justify-content: space-between;
-    margin-left: 77px;
-    padding: 0px;
-}
-
- 
-.ee {
-    padding-top: 80px;
-    display: flex;
-    padding-left: 180px;
-    align-items: baseline;
+    margin: 0px auto 103px;
 }
