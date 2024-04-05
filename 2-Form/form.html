@@ -14,23 +14,22 @@
 <body>
     <main>
         <form action="#">
-            <h1>Регистрация</h1>
             <div class="GlobEnt">
-                <p>Уже есть аккаунт?</p>
-                <a href="#" id="entry">Войти</a>
+                <h1>Регистрация</h1>
+                <p>Уже есть аккаунт? <a href="#" id="entry">Войти</a></p>
             </div>
-            <input id="nazvanie" type="text" placeholder="Название" required>
-            <div class="OwnInf">
-                <input type="text" name="name" id="name" placeholder="Имя" required>
-                <input type="text" name="lastname" id="lastname" placeholder="Фамилия" required>
-            </div>
-            <input type="email" placeholder="E-mail" id="email" required>
-            <button type="submit" id="reg"> Зарегистрироваться</button>
-            <span> &rarr; </span>
-            <div class="as">
-                <input id="conditions" type="checkbox" required>
-                <label for="conditions">Я прочитал и принимаю</label>
-                <a id="conds" href="#">Условия использования</a>
+            <div class="MENUFORM">
+                <input id="nazvanie" type="text" placeholder="Название" required>
+                <div class="OwnInf">
+                    <input type="text" name="name" id="name" placeholder="Имя" required>
+                    <input type="text" name="lastname" id="lastname" placeholder="Фамилия" required>
+                </div>
+                <input type="email" placeholder="E-mail" id="email" required>
+                <button type="submit" id="reg"> Зарегистрироваться <span><img src="./imgForm/Arrow 1.png" alt="arrowInp"></span></button>
+                <div class="accept">
+                    <input id="conditions" type="checkbox" required>
+                    <label for="conditions">Я прочитал и принимаю<a id="conds" href="#">Условия использования</a></label>
+                </div>
             </div>
         </form>
     </main>
