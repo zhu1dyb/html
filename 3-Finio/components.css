@@ -1,0 +1,40 @@
+button {
+    width: 289px;
+    height: 48px;
+    font-size: 17px;
+    font-weight: 800;
+    line-height: 24px;
+    color: var(--color-bg);
+    background-color: var(--color-button);
+    border-radius: var(--border-radius-47);
+    border: none;
+    cursor: pointer;
+}
+
+.button-light {
+    display: grid;
+    justify-content: center;
+}
+
+.button-dark button {
+    background-color: var(--color-bg);
+    border-radius: var(--border-radius-47);
+    color: var(--color-button);
+    display: grid;
+    align-items: center;
+}
+
+.button-dark {
+    display: grid;
+    justify-content: center;
+}
+
+@media (max-width: 840px) {
+ .section__wrapper {
+    display: grid;
+    grid-template-columns: 369px;
+    grid-auto-rows: 507px;
+    gap: 24px;
+}
+}
+
